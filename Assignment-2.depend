@@ -1,0 +1,123 @@
+# depslib dependency file v1.0
+1464191893 source:e:\dropbox\uni\2016-s1\ict283\projects\assignment-2\main.cpp
+	<iostream>
+	"TestSuite.h"
+	"SensorRecord.h"
+
+1464157664 source:e:\dropbox\uni\2016-s1\ict283\projects\assignment-2\src\maprecord.cpp
+	"MapRecord.h"
+
+1464190217 e:\dropbox\uni\2016-s1\ict283\projects\assignment-2\include\maprecord.h
+	<map>
+
+1464160245 e:\dropbox\uni\2016-s1\ict283\projects\assignment-2\tests\include\testingtools.h
+	<vector>
+	<iostream>
+	<typeinfo>
+	<string.h>
+	<string>
+	<exception>
+	<sstream>
+
+1464164637 source:e:\dropbox\uni\2016-s1\ict283\projects\assignment-2\tests\src\testmaprecord.cpp
+	"TestMapRecord.h"
+
+1464164755 e:\dropbox\uni\2016-s1\ict283\projects\assignment-2\tests\include\testmaprecord.h
+	<string.h>
+	"TestingTools.h"
+	"MapRecord.h"
+	"BinarySearchTree.h"
+
+1464191906 source:e:\dropbox\uni\2016-s1\ict283\projects\assignment-2\tests\src\testsuite.cpp
+	"TestSuite.h"
+
+1464191780 e:\dropbox\uni\2016-s1\ict283\projects\assignment-2\tests\include\testsuite.h
+	<TestingTools.h>
+	<TestNode.h>
+	<TestBinarySearchTree.h>
+	<iostream>
+
+1464160261 source:e:\dropbox\uni\2016-s1\ict283\projects\assignment-2\tests\src\testingtools.cpp
+	"TestingTools.h"
+
+1464162817 source:e:\dropbox\uni\2016-s1\ict283\projects\assignment-2\src\date.cpp
+	"Date.h"
+
+1464162809 e:\dropbox\uni\2016-s1\ict283\projects\assignment-2\include\date.h
+	<ostream>
+
+1464194062 source:e:\dropbox\uni\2016-s1\ict283\projects\assignment-2\tests\src\testbinarysearchtree.cpp
+	"TestBinarySearchTree.h"
+
+1464194078 e:\dropbox\uni\2016-s1\ict283\projects\assignment-2\tests\include\testbinarysearchtree.h
+	"TestingTools.h"
+	"BinarySearchTree.h"
+	"Node.h"
+	"Date.h"
+	<sstream>
+
+1464162769 e:\dropbox\uni\2016-s1\ict283\projects\assignment-2\include\binarysearchtree.h
+	"Node.h"
+
+1463979161 e:\dropbox\uni\2016-s1\ict283\projects\assignment-2\include\node.h
+	<iostream>
+
+1463201355 e:\dropbox\uni\2016-s1\ict283\projects\assignment-2\include\vector.h
+	<math.h>
+	<vector>
+
+1463212875 e:\dropbox\uni\2016-s1\ict283\projects\assignment-2\include\time.h
+	<ostream>
+
+1463978796 source:e:\dropbox\uni\2016-s1\ict283\projects\assignment-2\tests\src\testnode.cpp
+	"TestNode.h"
+
+1463639097 e:\dropbox\uni\2016-s1\ict283\projects\assignment-2\tests\include\testnode.h
+	"TestingTools.h"
+	"Node.h"
+	"Date.h"
+
+1463201341 source:e:\dropbox\uni\2016-s1\ict283\projects\assignment-2\tests\src\testvector.cpp
+	"TestVector.h"
+
+1463111044 e:\dropbox\uni\2016-s1\ict283\projects\assignment-2\tests\include\testvector.h
+	"TestingTools.h"
+	"Vector.h"
+
+1463212911 source:e:\dropbox\uni\2016-s1\ict283\projects\assignment-2\src\time.cpp
+	"Time.h"
+
+1464165770 source:e:\dropbox\uni\2016-s1\ict283\projects\assignment-2\src\dayrecord.cpp
+	"DayRecord.h"
+
+1464165630 e:\dropbox\uni\2016-s1\ict283\projects\assignment-2\include\dayrecord.h
+	"Time.h"
+	"BinarySearchTree.h"
+
+1464191208 source:e:\dropbox\uni\2016-s1\ict283\projects\assignment-2\src\monthrecord.cpp
+	"MonthRecord.h"
+
+1464191481 e:\dropbox\uni\2016-s1\ict283\projects\assignment-2\include\monthrecord.h
+	<map>
+	"DayRecord.h"
+	"Date.h"
+	"Time.h"
+
+1464191351 source:e:\dropbox\uni\2016-s1\ict283\projects\assignment-2\src\sensorrecord.cpp
+	"SensorRecord.h"
+
+1464191489 e:\dropbox\uni\2016-s1\ict283\projects\assignment-2\include\sensorrecord.h
+	<map>
+	"YearRecord.h"
+	"Date.h"
+	"Time.h"
+
+1464191486 e:\dropbox\uni\2016-s1\ict283\projects\assignment-2\include\yearrecord.h
+	<map>
+	"MonthRecord.h"
+	"Date.h"
+	"Time.h"
+
+1464191377 source:e:\dropbox\uni\2016-s1\ict283\projects\assignment-2\src\yearrecord.cpp
+	"YearRecord.h"
+
