@@ -6,9 +6,6 @@ using namespace std;
 
 int main()
 {
-//  TestSuite tests;
-//  tests.all();
-//  return 0;
   TestSuite tests;
   tests.all();
   return 0;

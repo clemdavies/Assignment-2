@@ -121,11 +121,9 @@
 1464191377 source:e:\dropbox\uni\2016-s1\ict283\projects\assignment-2\src\yearrecord.cpp
 	"YearRecord.h"
 
-1464191893 source:c:\users\clemdavies\dropbox\uni\2016-s1\ict283\projects\assignment-2\main.cpp
 1464250196 source:c:\users\clemdavies\dropbox\uni\2016-s1\ict283\projects\assignment-2\main.cpp
 	<iostream>
 	"TestSuite.h"
-	"SensorRecord.h"
 	"SensorController.h"
 
 1464162817 source:c:\users\clemdavies\dropbox\uni\2016-s1\ict283\projects\assignment-2\src\date.cpp
@@ -149,19 +147,15 @@
 1464160261 source:c:\users\clemdavies\dropbox\uni\2016-s1\ict283\projects\assignment-2\tests\src\testingtools.cpp
 	"TestingTools.h"
 
-1464234779 source:c:\users\clemdavies\dropbox\uni\2016-s1\ict283\projects\assignment-2\tests\src\testnode.cpp
 1464250305 source:c:\users\clemdavies\dropbox\uni\2016-s1\ict283\projects\assignment-2\tests\src\testnode.cpp
 	"TestNode.h"
 
-1464249643 source:c:\users\clemdavies\dropbox\uni\2016-s1\ict283\projects\assignment-2\tests\src\testsuite.cpp
 1464250691 source:c:\users\clemdavies\dropbox\uni\2016-s1\ict283\projects\assignment-2\tests\src\testsuite.cpp
 	"TestSuite.h"
 
-1464235552 source:c:\users\clemdavies\dropbox\uni\2016-s1\ict283\projects\assignment-2\tests\src\testvector.cpp
 1464250808 source:c:\users\clemdavies\dropbox\uni\2016-s1\ict283\projects\assignment-2\tests\src\testvector.cpp
 	"TestVector.h"
 
-1464249667 c:\users\clemdavies\dropbox\uni\2016-s1\ict283\projects\assignment-2\tests\include\testsuite.h
 1464250689 c:\users\clemdavies\dropbox\uni\2016-s1\ict283\projects\assignment-2\tests\include\testsuite.h
 	"TestingTools.h"
 	"TestNode.h"
@@ -203,7 +197,6 @@
 1464162769 c:\users\clemdavies\dropbox\uni\2016-s1\ict283\projects\assignment-2\include\binarysearchtree.h
 	"Node.h"
 
-1464247822 c:\users\clemdavies\dropbox\uni\2016-s1\ict283\projects\assignment-2\include\sensorrecord.h
 1464250687 c:\users\clemdavies\dropbox\uni\2016-s1\ict283\projects\assignment-2\include\sensorrecord.h
 	<map>
 	"YearRecord.h"
@@ -226,11 +219,9 @@
 1463212875 c:\users\clemdavies\dropbox\uni\2016-s1\ict283\projects\assignment-2\include\time.h
 	<ostream>
 
-1464194356 source:c:\users\clemdavies\dropbox\uni\2016-s1\ict283\projects\assignment-2\tests\src\testbinarysearchtree.cpp
 1464249981 source:c:\users\clemdavies\dropbox\uni\2016-s1\ict283\projects\assignment-2\tests\src\testbinarysearchtree.cpp
 	"TestBinarySearchTree.h"
 
-1464235514 c:\users\clemdavies\dropbox\uni\2016-s1\ict283\projects\assignment-2\tests\include\testvector.h
 1464250778 c:\users\clemdavies\dropbox\uni\2016-s1\ict283\projects\assignment-2\tests\include\testvector.h
 	"TestingTools.h"
 	"Vector.h"
