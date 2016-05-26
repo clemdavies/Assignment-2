@@ -132,16 +132,16 @@
 1464165770 source:c:\users\clemdavies\dropbox\uni\2016-s1\ict283\projects\assignment-2\src\dayrecord.cpp
 	"DayRecord.h"
 
-1464191208 source:c:\users\clemdavies\dropbox\uni\2016-s1\ict283\projects\assignment-2\src\monthrecord.cpp
+1464248146 source:c:\users\clemdavies\dropbox\uni\2016-s1\ict283\projects\assignment-2\src\monthrecord.cpp
 	"MonthRecord.h"
 
-1464191351 source:c:\users\clemdavies\dropbox\uni\2016-s1\ict283\projects\assignment-2\src\sensorrecord.cpp
+1464247966 source:c:\users\clemdavies\dropbox\uni\2016-s1\ict283\projects\assignment-2\src\sensorrecord.cpp
 	"SensorRecord.h"
 
 1463212911 source:c:\users\clemdavies\dropbox\uni\2016-s1\ict283\projects\assignment-2\src\time.cpp
 	"Time.h"
 
-1464191377 source:c:\users\clemdavies\dropbox\uni\2016-s1\ict283\projects\assignment-2\src\yearrecord.cpp
+1464248042 source:c:\users\clemdavies\dropbox\uni\2016-s1\ict283\projects\assignment-2\src\yearrecord.cpp
 	"YearRecord.h"
 
 1464160261 source:c:\users\clemdavies\dropbox\uni\2016-s1\ict283\projects\assignment-2\tests\src\testingtools.cpp
@@ -150,17 +150,21 @@
 1464234779 source:c:\users\clemdavies\dropbox\uni\2016-s1\ict283\projects\assignment-2\tests\src\testnode.cpp
 	"TestNode.h"
 
-1464191906 source:c:\users\clemdavies\dropbox\uni\2016-s1\ict283\projects\assignment-2\tests\src\testsuite.cpp
+1464249643 source:c:\users\clemdavies\dropbox\uni\2016-s1\ict283\projects\assignment-2\tests\src\testsuite.cpp
 	"TestSuite.h"
 
 1464235552 source:c:\users\clemdavies\dropbox\uni\2016-s1\ict283\projects\assignment-2\tests\src\testvector.cpp
 	"TestVector.h"
 
-1464235442 c:\users\clemdavies\dropbox\uni\2016-s1\ict283\projects\assignment-2\tests\include\testsuite.h
+1464249667 c:\users\clemdavies\dropbox\uni\2016-s1\ict283\projects\assignment-2\tests\include\testsuite.h
 	"TestingTools.h"
 	"TestNode.h"
 	"TestBinarySearchTree.h"
 	"TestVector.h"
+	"TestDate.h"
+	"TestTime.h"
+	"TestDateTime.h"
+	"TestDateFormat.h"
 	<iostream>
 
 1464160245 c:\users\clemdavies\dropbox\uni\2016-s1\ict283\projects\assignment-2\tests\include\testingtools.h
@@ -193,23 +197,20 @@
 1464162769 c:\users\clemdavies\dropbox\uni\2016-s1\ict283\projects\assignment-2\include\binarysearchtree.h
 	"Node.h"
 
-1464233622 c:\users\clemdavies\dropbox\uni\2016-s1\ict283\projects\assignment-2\include\sensorrecord.h
+1464247822 c:\users\clemdavies\dropbox\uni\2016-s1\ict283\projects\assignment-2\include\sensorrecord.h
 	<map>
 	"YearRecord.h"
-	"Date.h"
-	"Time.h"
+	"DateTime.h"
 
-1464191486 c:\users\clemdavies\dropbox\uni\2016-s1\ict283\projects\assignment-2\include\yearrecord.h
+1464248034 c:\users\clemdavies\dropbox\uni\2016-s1\ict283\projects\assignment-2\include\yearrecord.h
 	<map>
 	"MonthRecord.h"
-	"Date.h"
-	"Time.h"
+	"DateTime.h"
 
-1464234406 c:\users\clemdavies\dropbox\uni\2016-s1\ict283\projects\assignment-2\include\monthrecord.h
+1464248066 c:\users\clemdavies\dropbox\uni\2016-s1\ict283\projects\assignment-2\include\monthrecord.h
 	<map>
 	"DayRecord.h"
-	"Date.h"
-	"Time.h"
+	"DateTime.h"
 
 1464165630 c:\users\clemdavies\dropbox\uni\2016-s1\ict283\projects\assignment-2\include\dayrecord.h
 	"Time.h"
@@ -228,4 +229,62 @@
 1463201355 c:\users\clemdavies\dropbox\uni\2016-s1\ict283\projects\assignment-2\include\vector.h
 	<math.h>
 	<vector>
+
+1463212212 c:\users\clemdavies\dropbox\uni\2016-s1\ict283\projects\assignment-2\include\datetime.h
+	"Date.h"
+	"Time.h"
+	<ostream>
+
+1461840783 source:c:\users\clemdavies\dropbox\uni\2016-s1\ict283\projects\assignment-2\src\dateformat.cpp
+	"DateFormat.h"
+
+1461913494 c:\users\clemdavies\dropbox\uni\2016-s1\ict283\projects\assignment-2\include\dateformat.h
+	"string"
+	"Date.h"
+
+1463212596 source:c:\users\clemdavies\dropbox\uni\2016-s1\ict283\projects\assignment-2\src\datetime.cpp
+	"DateTime.h"
+
+1464247792 source:c:\users\clemdavies\dropbox\uni\2016-s1\ict283\projects\assignment-2\src\sensorcontroller.cpp
+	"SensorController.h"
+
+1464247781 c:\users\clemdavies\dropbox\uni\2016-s1\ict283\projects\assignment-2\include\sensorcontroller.h
+	<iostream>
+	<fstream>
+	"SensorRecord.h"
+	"YearRecord.h"
+	"MonthRecord.h"
+	"DayRecord.h"
+	"Date.h"
+
+1464249721 source:c:\users\clemdavies\dropbox\uni\2016-s1\ict283\projects\assignment-2\tests\src\testdate.cpp
+	"TestDate.h"
+
+1464249685 c:\users\clemdavies\dropbox\uni\2016-s1\ict283\projects\assignment-2\tests\include\testdate.h
+	"TestingTools.h"
+	"Date.h"
+
+1464249859 source:c:\users\clemdavies\dropbox\uni\2016-s1\ict283\projects\assignment-2\tests\src\testdateformat.cpp
+	"TestDateFormat.h"
+
+1464249830 c:\users\clemdavies\dropbox\uni\2016-s1\ict283\projects\assignment-2\tests\include\testdateformat.h
+	"TestingTools.h"
+	"DateFormat.h"
+	<string>
+
+1464249947 source:c:\users\clemdavies\dropbox\uni\2016-s1\ict283\projects\assignment-2\tests\src\testdatetime.cpp
+	"TestDateTime.h"
+
+1464249792 c:\users\clemdavies\dropbox\uni\2016-s1\ict283\projects\assignment-2\tests\include\testdatetime.h
+	"TestingTools.h"
+	"DateTime.h"
+	"Date.h"
+	"Time.h"
+
+1464249768 source:c:\users\clemdavies\dropbox\uni\2016-s1\ict283\projects\assignment-2\tests\src\testtime.cpp
+	"TestTime.h"
+
+1464249736 c:\users\clemdavies\dropbox\uni\2016-s1\ict283\projects\assignment-2\tests\include\testtime.h
+	"TestingTools.h"
+	"Time.h"
 

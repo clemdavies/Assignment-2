@@ -13,7 +13,13 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add directory="include" />
+					<Add directory="tests/include" />
 				</Compiler>
+				<ResourceCompiler>
+					<Add directory="include" />
+					<Add directory="tests/include" />
+				</ResourceCompiler>
 			</Target>
 			<Target title="Release">
 				<Option output="bin/Release/Assignment-2" prefix_auto="1" extension_auto="1" />
@@ -22,6 +28,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
+					<Add directory="include" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -32,7 +39,46 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/BinarySearchTree.h" />
+		<Unit filename="include/Date.h" />
+		<Unit filename="include/DateFormat.h" />
+		<Unit filename="include/DateTime.h" />
+		<Unit filename="include/DayRecord.h" />
+		<Unit filename="include/MonthRecord.h" />
+		<Unit filename="include/Node.h" />
+		<Unit filename="include/SensorController.h" />
+		<Unit filename="include/SensorRecord.h" />
+		<Unit filename="include/Time.h" />
+		<Unit filename="include/Vector.h" />
+		<Unit filename="include/YearRecord.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/Date.cpp" />
+		<Unit filename="src/DateFormat.cpp" />
+		<Unit filename="src/DateTime.cpp" />
+		<Unit filename="src/DayRecord.cpp" />
+		<Unit filename="src/MonthRecord.cpp" />
+		<Unit filename="src/SensorController.cpp" />
+		<Unit filename="src/SensorRecord.cpp" />
+		<Unit filename="src/Time.cpp" />
+		<Unit filename="src/YearRecord.cpp" />
+		<Unit filename="tests/include/TestBinarySearchTree.h" />
+		<Unit filename="tests/include/TestDate.h" />
+		<Unit filename="tests/include/TestDateFormat.h" />
+		<Unit filename="tests/include/TestDateTime.h" />
+		<Unit filename="tests/include/TestNode.h" />
+		<Unit filename="tests/include/TestSuite.h" />
+		<Unit filename="tests/include/TestTime.h" />
+		<Unit filename="tests/include/TestVector.h" />
+		<Unit filename="tests/include/TestingTools.h" />
+		<Unit filename="tests/src/TestBinarySearchTree.cpp" />
+		<Unit filename="tests/src/TestDate.cpp" />
+		<Unit filename="tests/src/TestDateFormat.cpp" />
+		<Unit filename="tests/src/TestDateTime.cpp" />
+		<Unit filename="tests/src/TestNode.cpp" />
+		<Unit filename="tests/src/TestSuite.cpp" />
+		<Unit filename="tests/src/TestTime.cpp" />
+		<Unit filename="tests/src/TestVector.cpp" />
+		<Unit filename="tests/src/TestingTools.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />

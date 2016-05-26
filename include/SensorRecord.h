@@ -3,8 +3,7 @@
 
 #include <map>
 #include "YearRecord.h"
-#include "Date.h"
-#include "Time.h"
+#include "DateTime.h"
 
 class SensorRecord
 {
@@ -12,8 +11,8 @@ class SensorRecord
     SensorRecord();
     virtual ~SensorRecord();
 
-    void addSolarRadiation(const Date &date,const Time &time,const float sr);
-    void addWindSpeed(const Date &date,const Time &time,const float ws);
+    void addSolarRadiation(const DateTime &datetime,const float sr);
+    void addWindSpeed(const Date &date,const float ws);
 
   private:
     std::map<unsigned,YearRecord*> records;

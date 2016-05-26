@@ -3,8 +3,7 @@
 
 #include <map>
 #include "DayRecord.h"
-#include "Date.h"
-#include "Time.h"
+#include "DateTime.h"
 
 
 class MonthRecord
@@ -13,11 +12,18 @@ class MonthRecord
     MonthRecord();
     virtual ~MonthRecord();
 
-    void addSolarRadiation(const Date &date,const Time &time,const float sr);
-    void addWindSpeed(const Date &date,const Time &time,const float sr);
+    void addSolarRadiation(const DateTime &datetime,const float sr);
+    void addWindSpeed(const Date &date,const float ws);
+
+    float getMaximumWindSpeed();
+    float getAverageWindSpeed();
+    int getTotalSolarRadiation();
 
   private:
     std::map<unsigned,DayRecord*> records;
+    float maximumWindSpeed;
+    float averageWindSpeed;
+    int totalSolarRadiation;
 };
 
 #endif // MONTHRECORD_H

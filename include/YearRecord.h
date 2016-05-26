@@ -3,8 +3,7 @@
 
 #include <map>
 #include "MonthRecord.h"
-#include "Date.h"
-#include "Time.h"
+#include "DateTime.h"
 
 class YearRecord
 {
@@ -12,11 +11,12 @@ class YearRecord
     YearRecord();
     virtual ~YearRecord();
 
-    void addSolarRadiation(const Date &date,const Time &time,const float sr);
-    void addWindSpeed(const Date &date,const Time &time,const float sr);
+    void addSolarRadiation(const DateTime &datetime,const float sr);
+    void addWindSpeed(const Date &date,const float ws);
 
   private:
     std::map<unsigned,MonthRecord*> records;
 };
+
 
 #endif // YEARRECORD_H

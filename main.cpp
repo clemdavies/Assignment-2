@@ -1,18 +1,17 @@
 #include <iostream>
-
 #include "TestSuite.h"
-
-#include "SensorRecord.h"
-
+#include "SensorController.h"
 
 using namespace std;
 
 int main()
 {
-  TestSuite tests;
-  tests.all();
-//  SensorRecord sensor;
-//  sensor.addSolarRadiation(Date(25,5,2016),Time(4,43,0),55.5);
+//  TestSuite tests;
+//  tests.all();
+//  return 0;
+  SensorController controller("input/index.txt","output/WindandSolar.csv");
+  controller.readInputFiles();
 
-    return 0;
+
+  return 0;
 }

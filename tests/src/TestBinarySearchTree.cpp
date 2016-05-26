@@ -113,11 +113,6 @@ void TestBinarySearchTree::removeNodes()
     instance.insert(6);
     instance.insert(8);
     instance.insert(1);
-//
-//    instance.insert(14);
-//    instance.insert(11);
-//    instance.insert(16);
-//    instance.insert(15);
 
     tools->description("inserted 5,10,3,2,12,6,8,1");
     tools->description("           5");

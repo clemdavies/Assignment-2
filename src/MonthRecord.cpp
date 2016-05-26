@@ -10,15 +10,16 @@ MonthRecord::~MonthRecord()
   //dtor
 }
 
-void MonthRecord::addSolarRadiation(const Date &date,const Time &time,const float sr)
+void MonthRecord::addSolarRadiation(const DateTime &datetime,const float sr)
 {
-  if(records.count(date.getDay())<=0)
-    records[date.getDay()] = new DayRecord();
+  if(records.count(datetime.getDate()->getDay())<=0)
+    records[datetime.getDate()->getDay()] = new DayRecord();
 
-  records[date.getDay()]->addSolarRadiation(time,sr);
+  records[datetime.getDate()->getDay()]->addSolarRadiation(*(datetime.getTime()),sr);
 }
 
-void MonthRecord::addWindSpeed(const Date &date,const Time &time,const float sr)
+void MonthRecord::addWindSpeed(const Date &date,const float ws)
 {
+  // store windspeed at month
 
 }
