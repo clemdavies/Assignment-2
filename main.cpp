@@ -9,6 +9,10 @@ int main()
 //  TestSuite tests;
 //  tests.all();
 //  return 0;
+  TestSuite tests;
+  tests.all();
+  return 0;
+
   SensorController controller("input/index.txt","output/WindandSolar.csv");
   controller.readInputFiles();
 
