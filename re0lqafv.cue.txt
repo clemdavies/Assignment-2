@@ -1,0 +1,35 @@
+﻿fixed it
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Changes to be committed:
+#	modified:   Assignment-2.cbp
+#	modified:   Assignment-2.depend
+#	modified:   Assignment-2.layout
+#	deleted:    include/DateFormat.h
+#	deleted:    include/DateTime.h
+#	modified:   include/MonthRecord.h
+#	deleted:    include/SensorController.h
+#	modified:   include/SensorRecord.h
+#	modified:   include/YearRecord.h
+#	deleted:    input/index.txt
+#	modified:   main.cpp
+#	deleted:    src/DateFormat.cpp
+#	deleted:    src/DateTime.cpp
+#	modified:   src/MonthRecord.cpp
+#	deleted:    src/SensorController.cpp
+#	modified:   src/SensorRecord.cpp
+#	modified:   src/YearRecord.cpp
+#	deleted:    tests/include/TestDate.h
+#	deleted:    tests/include/TestDateFormat.h
+#	deleted:    tests/include/TestDateTime.h
+#	modified:   tests/include/TestSuite.h
+#	deleted:    tests/include/TestTime.h
+#	modified:   tests/src/TestBinarySearchTree.cpp
+#	deleted:    tests/src/TestDate.cpp
+#	deleted:    tests/src/TestDateFormat.cpp
+#	deleted:    tests/src/TestDateTime.cpp
+#	modified:   tests/src/TestSuite.cpp
+#	deleted:    tests/src/TestTime.cpp
+#
+
