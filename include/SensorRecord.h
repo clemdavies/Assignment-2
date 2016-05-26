@@ -13,7 +13,8 @@ class SensorRecord
     virtual ~SensorRecord();
 
     void addSolarRadiation(const Date &date,const Time &time,const float sr);
-    void addWindSpeed(const Date &date,const Time &time,const float sr);
+    void addWindSpeed(const Date &date,const Time &time,const float ws);
+
   private:
     std::map<unsigned,YearRecord*> records;
 };

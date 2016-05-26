@@ -1,9 +1,10 @@
 #ifndef TESTSUITE_H
 #define TESTSUITE_H
 
-#include <TestingTools.h>
-#include <TestNode.h>
-#include <TestBinarySearchTree.h>
+#include "TestingTools.h"
+#include "TestNode.h"
+#include "TestBinarySearchTree.h"
+#include "TestVector.h"
 
 #include <iostream>
 using namespace std;
@@ -18,6 +19,7 @@ class TestSuite
 
     void testNode();
     void testBinarySearchTree();
+    void testVector();
 
   private:
     TestingTools tools;

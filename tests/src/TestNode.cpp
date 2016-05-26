@@ -158,29 +158,29 @@ void TestNode::nesting()
 
     n3->lnode = n6;
     n3->rnode = n7;
-//
-//    tools->description("Traversal from root node.");
-//
-//    tools->assertEquals(n1.data,10);
-//    tools->assertEquals(n1.lnode,&n2);
-//    tools->assertEquals(n1.lnode->data,20);
-//    tools->assertEquals(n1.rnode,n3);
-//    tools->assertEquals(n1.rnode->data,30);
-//    tools->assertEquals(n1.lnode->lnode->data,40);
-//    tools->assertEquals(n1.lnode->rnode->data,50);
-//    tools->assertEquals(n1.rnode->lnode->data,60);
-//    tools->assertEquals(n1.rnode->rnode->data,70);
-//
-//    tools->description("Links on leaves set to nullptr.");
-//    tools->assertTrue(n1.lnode->lnode->lnode == nullptr);
-//    tools->assertTrue(n1.lnode->lnode->rnode == nullptr);
-//    tools->assertTrue(n1.lnode->rnode->lnode == nullptr);
-//    tools->assertTrue(n1.lnode->rnode->rnode == nullptr);
-//
-//    tools->assertTrue(n1.rnode->lnode->lnode == nullptr);
-//    tools->assertTrue(n1.rnode->lnode->rnode == nullptr);
-//    tools->assertTrue(n1.rnode->rnode->lnode == nullptr);
-//    tools->assertTrue(n1.rnode->rnode->rnode == nullptr);
+
+    tools->description("Traversal from root node.");
+
+    tools->assertEquals(n1.data,Date(10,5,2016));
+    tools->assertEquals(n1.lnode,&n2);
+    tools->assertEquals(n1.lnode->data,Date(20,5,2016));//n2
+    tools->assertEquals(n1.rnode,n3);
+    tools->assertEquals(n1.rnode->data,Date(10,6,2016));
+    tools->assertEquals(n1.lnode->lnode->data,Date(20,6,2016));
+    tools->assertEquals(n1.lnode->rnode->data,Date(10,8,2016));
+    tools->assertEquals(n1.rnode->lnode->data,Date(20,8,2016));
+    tools->assertEquals(n1.rnode->rnode->data,Date(30,8,2016));
+
+    tools->description("Links on leaves set to nullptr.");
+    tools->assertTrue(n1.lnode->lnode->lnode == nullptr);
+    tools->assertTrue(n1.lnode->lnode->rnode == nullptr);
+    tools->assertTrue(n1.lnode->rnode->lnode == nullptr);
+    tools->assertTrue(n1.lnode->rnode->rnode == nullptr);
+
+    tools->assertTrue(n1.rnode->lnode->lnode == nullptr);
+    tools->assertTrue(n1.rnode->lnode->rnode == nullptr);
+    tools->assertTrue(n1.rnode->rnode->lnode == nullptr);
+    tools->assertTrue(n1.rnode->rnode->rnode == nullptr);
 
     delete n3, n6, n7;
   }
