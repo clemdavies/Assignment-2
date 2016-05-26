@@ -10,8 +10,6 @@ class TestVector
     TestVector(TestingTools &toolsRef);
     virtual ~TestVector();
 
-    void all();
-
     void emptyConstructor();
     void paramConstructor();
     void copyConstructor();

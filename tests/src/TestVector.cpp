@@ -12,23 +12,6 @@ TestVector::~TestVector()
 }
 
 
-void TestVector::all()
-{
-  emptyConstructor();
-  paramConstructor();
-  copyConstructor();
-  assignmentOperator();
-  get();
-  getSize();
-  getMaxSize();
-  insert();
-  clear();
-  empty();
-  increaseSize();
-}
-
-
-
 void TestVector::emptyConstructor()
 {
 	tools->setFunctionName("emptyConstructor");
